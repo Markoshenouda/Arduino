@@ -6,6 +6,14 @@ void setup() {
   Serial.println(x);
   x+=5;
   Serial.println(x);
+  x*=5;
+  Serial.println(x);
+  x/=2;
+  Serial.println(x);
+  x++;
+  Serial.println(x);
+  x--;
+  Serial.println(x);
   
 
 }
