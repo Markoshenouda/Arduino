@@ -43,4 +43,33 @@ void loop() {
       digitalWrite(led[5],LOW);
   delay(200);
   }
+  /*
+int led[6] = {8,9,10,11,12,13};
+
+void setup() {
+  // put your setup code here, to run once:
+  /*pinMode(led_13, OUTPUT);
+  pinMode(led_12, OUTPUT);
+  pinMode(led_11, OUTPUT);
+  pinMode(led_10, OUTPUT);
+  pinMode(led_9, OUTPUT);
+  pinMode(led_8, OUTPUT);
+
+  for(int i=0; i<6; i++){
+    pinMode(led[i], OUTPUT);
+  }
+  
+}
+void loop() {
+  for(int i=0;i<64;i++){
+      digitalWrite(led[0],(i%2)>0);
+      digitalWrite(led[1],(i%4)>1);
+      digitalWrite(led[2],(i%8)>3);
+      digitalWrite(led[3],(i%16)>7);
+      digitalWrite(led[4],(i%32)>15);
+      digitalWrite(led[5],(i%64)>31);
+    delay(500);
+  }
+  }
+  */
   }
